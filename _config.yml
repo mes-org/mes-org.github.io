@@ -1,0 +1,39 @@
+# Site settings
+title: Madhyapur Engineering Society
+description: 'Madhyapur Thimi Municipality - Serve The Society'
+url: 'http://mes.org.np'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Mes Committee'
+  email: mes.committee@gmail.com
+  twitter_username: mescommittee
+  facebook_username: mescommittee
+  github_username:  mes-org
+  linkedin_username:  madhyapur-engineering-society
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
