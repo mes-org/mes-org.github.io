@@ -9,6 +9,7 @@ Madhyapur Engineering Society (MES), established in 1997, is a non political soc
 MES has played an important role to formulate short term and long term policy and planning for the Municipality. It has been playing active role to make development process of the Municipality more efficient by providing technical assistance. From formulating the Building By Laws to organizing technical seminar, workshop, interaction program and capacity building training MES has been an active body.
 
 Breaking the barriers of limiting itself only within the municipality, MES has organized various programs in association with various NGOs as well as INGOs such as GTZ, UDLE, NSET, ENPHO, TDP to list few.
+
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:
